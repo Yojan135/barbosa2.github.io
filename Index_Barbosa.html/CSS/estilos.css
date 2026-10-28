@@ -1,0 +1,96 @@
+.fondo {
+    display: block;
+    width: 900px;
+    margin: 0 auto;
+}
+.espacio_grande {
+    margin-bottom: 550px;
+}        
+.botones_dashboard {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+.botones_dashboard a{
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #32CD32;
+    color: white;
+    text-decoration: none;
+}
+.botones_dashboard a:hover {
+    background-color: #008000;
+    color: white;
+}
+.go_back {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #0000FF;
+    color: white;
+    text-decoration: none;
+}
+.fondoadmin {
+background-image: url("Imagenes/oldpar-image.jpeg"), url(Imagenes/cerveza.png);
+background-size: 300px 400px, 300px 400px;
+background-repeat: no-repeat, no-repeat;
+background-position: 750px 240px, 750px 740px;
+margin: 0;
+}
+
+.mover-tabla {
+    margin-left: 100px;
+}
+.oldparr-texto {
+    width: 200px;
+    text-align: center;
+    margin: 30px 100px;
+}
+.oldparr-texto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.amarillo-texto {
+    width: 200px;
+    text-align: center;
+    margin: 30px 100px;
+}
+.amarillo-texto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.donjulio-texto {
+    width: 200px;
+    text-align: center;
+    margin: 30px 100px;
+}
+.donjulio-texto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.cremawhisky-texto {
+    width: 200px;
+    text-align: center;
+    margin: 30px 100px;
+}
+.cremawhisky-texto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.etiquetas-texto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.fondocompleto {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/CSS/Imagenes/fondobar.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
